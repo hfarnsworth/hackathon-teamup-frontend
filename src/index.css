@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.NavBar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+button, .NavBar > a {
+  box-shadow: 3px 3px black;
+  border-color: green;
+  border-width: 2px;
+  margin: 12px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.delete {
+  border: 2px solid red;
+  border-style: groove;
+  border-radius: 6px;
+}
+
+.SideBar {
+  border-style: inset;
+  background-color: #dcedce;
+  position: absolute;
+  left: 40px;
+}
+
+.TeamsContainer {
+  margin: 50px;
+  float: center;
+  padding: 40px;
+  height: 400px;
+}
+
+.CollaboratorsContainer {
+  margin: 50px;
+  float: center;
+  padding: 40px;
+  height: 400px;
+}
+
+.Team {
+  background-color: #e2f794;
+  position: absolute;
+  right: 0px;
+  border-style: outset;
+  border-width: 6px;
+  width: 250;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.Collaborator {
+  background-color: #ceedea;
+  position: absolute;
+  right: 0px;
+  border-style: outset;
+  border-width: 6px;
+  width: 250;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.About {
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  float: center;
+}
+
+.newCollaborator {
+  background-color: #ceedea;
+  position: absolute;
+  float: center;
+  border-style: outset;
+  border-width: 6px;
+  margin: 0 auto;
+  width: 250;
+  padding: 20px;
+}
+
+.newTeam {
+  background-color: #ceedea;
+  position: absolute;
+  float: center;
+  border-style: outset;
+  border-width: 6px;
+  margin: 0 auto;
+  width: 250;
+  padding: 20px;
+}
+
+.error {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  width: 360px;
+}
