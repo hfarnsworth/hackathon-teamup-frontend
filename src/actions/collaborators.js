@@ -1,4 +1,4 @@
-const API = "https://fast-stream-36970.herokuapp.com/"
+const API = "https://safe-fjord-18355.herokuapp.com/"
 const collaboratorsAPI = API + "collaborators/"
 
 const loadCollaborators = collaborators => ({ type: "LOAD_COLLABORATORS", collaborators })

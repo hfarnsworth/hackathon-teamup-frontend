@@ -11,19 +11,12 @@ class CollaboratorsContainer extends React.Component {
   }
 
   handleOnClick = () => {
-    // this.setState({
-    //   count: this.state.count + 1
-    // })
 
     const API = "http://localhost:3000/"
     const collaboratorsAPI = API + "collaborators/"
 
-
-    console.log("a");
-
     fetch(collaboratorsAPI)
       .then(resp => {
-        console.log("b")
         return resp.json();
       })
       .then(data => console.log('c', data))
@@ -39,7 +32,6 @@ class CollaboratorsContainer extends React.Component {
   render() {
     return (
       <div className="CollaboratorsContainer">
-        <button onClick={this.handleOnClick}>Click Me!</button>{this.state.count}
         <SideCollabos collaborators={this.props.collaborators} deleteCollaborator={this.props.deleteCollaborator} />
 
         <Switch>

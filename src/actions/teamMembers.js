@@ -1,4 +1,4 @@
-const API = "https://fast-stream-36970.herokuapp.com/"
+const API = "https://safe-fjord-18355.herokuapp.com/"
 const teamMembersAPI = API + "team_members/"
 
 const addTeamToMember = (collaboratorID,team) => ({ type: "ADD_TEAM_TO_COLLABORATOR", collaboratorID, team })
