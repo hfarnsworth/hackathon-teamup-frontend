@@ -22,7 +22,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hackathon Teamup</h1>
         <NavBar />
         <Switch>
           <Route exact from="/" component={About} />
